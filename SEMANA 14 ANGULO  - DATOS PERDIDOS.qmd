@@ -1,0 +1,45 @@
+---
+title: "DATOS PERDIDOS"
+author: "ANGULO CASTRO"
+format: html
+editor: visual
+---
+
+## Quarto
+
+```{r}
+datos<-read.csv("pacientes.csv")
+
+```
+
+```{r}
+datos
+
+```
+
+```{r}
+summary(datos)
+```
+
+```{r}
+colSums(is.na(datos))
+
+```
+
+#Diabetes
+
+```{r}
+datos<-read.csv("diabetes.csv")
+```
+
+```{r}
+datos
+```
+
+```{r}
+summary(datos)
+```
+
+```{r}
+colSums(is.na(datos))
+```
